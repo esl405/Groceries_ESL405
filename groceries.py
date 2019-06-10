@@ -25,9 +25,14 @@ products = [
 
 products_count=len(products)
 
+def to_usd(my_price):
+    return "${0:,.2f}".format(my_price)
+
 print("--------------")
 print(f"THERE ARE {products_count} PRODUCTS: ") #add f for variable string and {} mean input vairbale
 print("--------------")
+
+
 
 for item in products:
     #print(item["name"])
