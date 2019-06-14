@@ -22,6 +22,11 @@ products = [
     {"id":19, "name": "Gluten Free Quinoa Three Cheese & Mushroom Blend", "department": "dry goods pasta", "aisle": "grains rice dried goods", "price": 3.99},
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
+#[p for p in products if p["id"]==4] #for list comprehension
+#[{'id': 4, 'name': 'Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream
+#Sauce', 'department': 'frozen', 'aisle': 'frozen meals', 'price': 6.99}]
+
+breakpoint() #allows for interation with code
 
 products_count=len(products)
 
